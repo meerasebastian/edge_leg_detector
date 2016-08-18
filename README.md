@@ -9,11 +9,6 @@ doi: 10.1109/TSMCB.2008.2004050
 Run this package by typing 
 
 ```
-roslaunch edge_leg_detector edge_leg_detector.launch laser_scan:=
-```
-
-Where ```[LASER_SCAN_TOPIC]``` is the name of the topic with the LaserScan sensor data. For example, if the name of the topic is ```/scan``` then, the leg detector can be initialized as: 
-
-```
 roslaunch edge_leg_detector edge_leg_detector.launch laser_scan:=/base_scan
 ```
+
