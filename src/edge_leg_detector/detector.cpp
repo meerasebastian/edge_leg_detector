@@ -10,6 +10,10 @@
 // Multisensor-Based Human Detection and Tracking for Mobile Service Robots 
 // IEEE Trans. on Systems, Man, and Cybernetics -- Part B, 2009, 39, 167-181
 
+// Meera Sebastian 
+// Santosh Balajee Banisetty
+// Modified it to use with SAN
+
 #include <ros/ros.h>
 #include <sensor_msgs/LaserScan.h>
 #include <geometry_msgs/PoseArray.h>
