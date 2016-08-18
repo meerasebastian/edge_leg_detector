@@ -11,4 +11,11 @@ Run this package by typing
 ```
 roslaunch edge_leg_detector edge_leg_detector.launch laser_scan:=/base_scan
 ```
+Open another terminal and run the following command:
+```
+rosrun rviz rviz
+```
+In the rviz window, make Fixed Frame as base_laser_link
+Add LaserScan topic "base_scan"
+Add Marker topic "marker2"
 
